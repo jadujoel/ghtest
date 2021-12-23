@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cid": "git add . && git commit -m \"fix: update\" && npm version patch && git push"
   },
   "keywords": [],
   "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
