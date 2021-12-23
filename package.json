@@ -1,6 +1,6 @@
 {
   "name": "@jadujoel/ghtest",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "scripts": {
     "cid": "git add . && git commit -m \"fix: update\" && npm version patch && git push"
