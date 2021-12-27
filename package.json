@@ -3,7 +3,7 @@
   "version": "0.0.10",
   "main": "index.js",
   "scripts": {
-    "cid": "git add . && git commit -m \"fix: update\" && npm version patch && git push"
+    "cid": "npm version patch -ws && git add . && git commit -m \"fix: update\" && npm version patch && git push"
   },
   "keywords": [],
   "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
