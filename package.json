@@ -1,6 +1,6 @@
 {
   "name": "@jadujoel/ghtest",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "index.js",
   "scripts": {
     "cid": "git add . && git commit -m \"fix: update\" && npm version patch && git push"
@@ -9,6 +9,7 @@
   "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
   "license": "MIT",
   "description": "",
-  "workspaces": ["./packages/*"]
+  "workspaces": [
+    "./packages/*"
+  ]
 }
-
