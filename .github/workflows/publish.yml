@@ -18,6 +18,6 @@ jobs:
           node-version: 16.11.1
           registry-url: https://registry.npmjs.org
       - name: publish
-        run: npm publish --access=private
+        run: npm publish --access=restricted
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
