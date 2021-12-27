@@ -1,0 +1,12 @@
+{
+  "name": "@jadujoel/ghtest-a",
+  "version": "0.0.9",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
+  "license": "MIT",
+  "description": ""
+}

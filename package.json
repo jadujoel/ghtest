@@ -8,5 +8,7 @@
   "keywords": [],
   "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "workspaces": ["./packages/*"]
 }
+
