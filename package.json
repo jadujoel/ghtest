@@ -1,5 +1,5 @@
 {
-  "name": "@jadujoel/ghtest",
+  "name": "ghtest",
   "version": "0.0.20-5",
   "main": "index.js",
   "scripts": {
