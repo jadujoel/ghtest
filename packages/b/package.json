@@ -1,6 +1,6 @@
 {
   "name": "ghtest-d",
-  "version": "0.0.21-1",
+  "version": "0.0.21",
   "main": "index.js",
   "repository": {
     "type": "git",
