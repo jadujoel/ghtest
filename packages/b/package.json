@@ -1,6 +1,6 @@
 {
   "name": "ghtest-b",
-  "version": "0.0.20-14",
+  "version": "0.0.20-15",
   "main": "index.js",
   "scripts": {
     "build": "node index.js"

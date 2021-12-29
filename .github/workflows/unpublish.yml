@@ -17,3 +17,7 @@ jobs:
         run: npm unpublish ghtest-a --force && npm unpublish ghtest-b --force
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: unpublish ws
+        run: npm unpublish ghtest-a --force --workspaces && npm unpublish ghtest-b --force --workspaces
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
