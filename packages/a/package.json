@@ -1,12 +1,12 @@
 {
-  "name": "@jadujoel/ghtest-a",
-  "version": "0.0.20-6",
+  "name": "ghtest-a",
+  "version": "0.0.20-7",
   "main": "index.js",
   "scripts": {
     "build": "node index.js"
   },
   "keywords": [],
-  "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",
+  "author": "Joel Lof <joel.lof@icloud.com> (https://joellof.com/)",
   "license": "MIT",
   "description": ""
 }
