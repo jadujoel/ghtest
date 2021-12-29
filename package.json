@@ -1,6 +1,6 @@
 {
   "name": "ghtest",
-  "version": "0.0.20-13",
+  "version": "0.0.20-14",
   "main": "index.js",
   "scripts": {
     "cid": "npm run push-patch-pre",
@@ -14,7 +14,6 @@
   "workspaces": [
     "./packages/*"
   ],
-  
   "directories": {
     "lib": "lib",
     "test": "__tests__"
