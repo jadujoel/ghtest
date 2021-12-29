@@ -12,6 +12,6 @@ jobs:
           node-version: 16.11.1
           registry-url: https://registry.npmjs.org
       - name: publish
-        run: npm unpublish -ws
+        run: npm unpublish -ws --force
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
