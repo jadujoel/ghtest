@@ -1,6 +1,11 @@
 {
   "name": "ghtest-a",
-  "version": "0.0.20-13",
+  "version": "0.0.20-14",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadujoel/ghtest.git",
+    "directory": "packages/a"
+  },
   "main": "index.js",
   "scripts": {
     "build": "node index.js"
@@ -8,5 +13,12 @@
   "keywords": [],
   "author": "Joel Lof <joel.lof@icloud.com> (https://joellof.com/)",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
 }
