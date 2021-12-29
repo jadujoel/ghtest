@@ -13,5 +13,6 @@
   "description": "",
   "workspaces": [
     "./packages/*"
-  ]
+  ],
+  "directories": "lib"
 }
