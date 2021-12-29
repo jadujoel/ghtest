@@ -1,4 +1,7 @@
 name: Unpublish
+
+on: [workflow_dispatch]
+
 jobs:
   unpublish:
     name: unpublish
