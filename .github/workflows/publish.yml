@@ -1,26 +1,26 @@
 name: Publish
 
-  on:
-    push:
-      branches:
-        - master
+on:
+  push:
+    branches:
+      - master
 
-  jobs:
-    release:
-      name: Publish
-      runs-on: ubuntu-latest
-      steps:
-        - name: checkout
-          uses: actions/checkout@v2.4.0
-        - name: node
-          uses: actions/setup-node@v2.5.0
-          with:
-            node-version: 16.11.1
-            # registry-url: https://registry.npmjs.org
-            registry-url: https://npm.pkg.github.com
-        - name: publish
-          # run: npm publish --access public -ws
-          run: npm publish
-          env:
-            # NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+jobs:
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2.4.0
+      - name: node
+        uses: actions/setup-node@v2.5.0
+        with:
+          node-version: 16.11.1
+          # registry-url: https://registry.npmjs.org
+          registry-url: https://npm.pkg.github.com
+      - name: publish
+        # run: npm publish --access public -ws
+        run: npm publish
+        env:
+          # NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
