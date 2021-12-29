@@ -4,7 +4,6 @@ on: [workflow_dispatch]
 
 jobs:
   unpublish:
-    name: unpublish
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -14,7 +13,7 @@ jobs:
         with:
           node-version: 16.11.1
           registry-url: https://registry.npmjs.org
-      - name: publish
+      - name: unpublish
         run: npm unpublish -ws --force
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
