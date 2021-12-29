@@ -1,9 +1,11 @@
 {
-  "name": "@jadujoel/ghtest",
+  "name": "ghtest",
   "version": "0.0.19",
   "main": "index.js",
   "scripts": {
-    "cid": "npm version patch -ws && git add . && git commit -m \"fix: update\" && npm version patch && git push"
+    "cid": "npm run push-patch-pre",
+    "push-patch-pre": "npm version prerelease -ws && git add . && git commit -m \"fix: pre\" && npm version prerelease && git push",
+    "push-patch-release": "npm version patch -ws && git add . && git commit -m \"fix: patch release\" && npm version patch && git push"
   },
   "keywords": [],
   "author": "Joel Lof <jlof@evolution.com> (https://joellof.com/)",

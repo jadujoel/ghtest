@@ -1,6 +1,6 @@
 {
   "name": "@jadujoel/ghtest-b",
-  "version": "0.0.17",
+  "version": "0.0.20-0",
   "main": "index.js",
   "scripts": {
     "build": "node index.js"
