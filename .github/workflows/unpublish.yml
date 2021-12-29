@@ -14,6 +14,6 @@ jobs:
           node-version: 16.11.1
           registry-url: https://registry.npmjs.org
       - name: unpublish
-        run: npm unpublish -ws --force
+        run: npm unpublish ghtest-a --force && npm unpublish ghtest-b --force
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
