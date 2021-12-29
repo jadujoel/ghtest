@@ -1,6 +1,6 @@
 {
   "name": "ghtest-d",
-  "version": "0.0.22-1",
+  "version": "0.0.22-2",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,5 +13,12 @@
   "keywords": [],
   "author": "Joel Lof <joel.lof@icloud.com> (https://joellof.com/)",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
 }
