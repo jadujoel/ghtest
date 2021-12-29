@@ -1,6 +1,6 @@
 {
   "name": "ghtestmono",
-  "version": "0.0.20-20",
+  "version": "0.0.20",
   "main": "index.js",
   "scripts": {
     "cid": "npm run push-patch-pre",
