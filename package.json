@@ -1,6 +1,6 @@
 {
   "name": "ghtest",
-  "version": "0.0.20-9",
+  "version": "0.0.20-10",
   "main": "index.js",
   "scripts": {
     "cid": "npm run push-patch-pre",
