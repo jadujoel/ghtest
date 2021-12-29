@@ -1,7 +1,12 @@
 {
-  "name": "ghtest-b",
-  "version": "0.0.20-16",
+  "name": "ghtest-d",
+  "version": "0.0.20-17",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadujoel/ghtest.git",
+    "directory": "packages/b"
+  },
   "scripts": {
     "build": "node index.js"
   },
