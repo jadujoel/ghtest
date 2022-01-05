@@ -3,7 +3,7 @@
   "version": "0.0.24-alpha.0",
   "main": "index.js",
   "scripts": {
-    "alpha": "npm version prerelease --preid=alpha -ws && git add . && git commit -m \"alpha: prerelease\" && npm version prerelease --preid=alpha && git push",
+    "alpha": "npm version prerelease --preid=alpha -ws && git add . && git commit -m \"alpha: prerelease #tag\" && npm version prerelease --preid=alpha && git push",
     "fix": "npm version patch -ws && git add . && git commit -m \"fix: patch\" && npm version patch && git push",
     "feature": "npm version minor -ws && git add . && git commit -m \"feature: minor\" && npm version minor && git push",
     "breaking": "npm version major -ws && git add . && git commit -m \"breaking: major\" && npm version major && git push"
